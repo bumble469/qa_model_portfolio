@@ -1,0 +1,181 @@
+[
+  {
+    "question": "are you ai",
+    "answer": "Yes. Vectorization-based systems use AI techniques like natural language processing and similarity matching, but they do not generate new content. They retrieve the most relevant existing information, so they are AI systems, but not generative AI."
+  },
+  {
+    "question": "about you",
+    "answer": "I am a portfolio assistant built to explain Alisher’s background, skills, projects, and professional experience using a machine-learning–based question answering system."
+  },
+  {
+    "question": "who are you",
+    "answer": "I am an AI-powered portfolio assistant designed to answer questions about Alisher’s skills, projects, experience, and education."
+  },
+  {
+    "question": "how are you trained",
+    "answer": "I am trained using machine learning techniques based on natural language processing. I work by converting questions into numerical vectors using text vectorization and then comparing them with a curated dataset of predefined questions using similarity matching. The most relevant answer is selected based on this comparison, rather than generating new responses."
+  },
+  {
+    "question": "what are you",
+    "answer": "I am a custom-built portfolio assistant that uses natural language processing and machine learning to retrieve accurate information about Alisher."
+  },
+  {
+    "question": "how do you work",
+    "answer": "I work by comparing user questions with a curated dataset using TF-IDF vectorization and cosine similarity to return the most relevant answers."
+  },
+  {
+    "question": "what can you do",
+    "answer": "I can answer questions related to Alisher’s skills, projects, education, achievements, and professional experience."
+  },
+  {
+    "question": "your purpose",
+    "answer": "My purpose is to help users learn about Alisher’s professional profile by providing accurate and relevant portfolio information."
+  },
+  {
+    "question": "how were you built",
+    "answer": "I was built using Python and scikit-learn, leveraging TF-IDF vectorization and cosine similarity for question matching."
+  },
+
+  {
+    "question": "alisher work history and work experience",
+    "answer": "Alisher has worked remotely as a Full Stack Developer at Site Guru Pvt Ltd and as a Full Stack Developer Intern at Unified Mentor."
+  },
+
+  {
+    "question": "alisher leadership",
+    "answer": "Alisher has demonstrated leadership by mentoring and guiding interns, providing technical support, and improving collaboration and project delivery."
+  },
+
+  {
+    "question": "alisher achievements",
+    "answer": "Alisher’s achievements include graduating with a perfect 10.0 GPA, delivering multiple production-ready full-stack projects, integrating machine learning into applications, mentoring interns, and presenting academic research."
+  },
+  {
+    "question": "alisher academic achievements",
+    "answer": "Alisher earned a perfect GPA of 10.0 in his Bachelor of Computer Science degree and actively participated in research-oriented academic programs."
+  },
+  {
+    "question": "alisher research work",
+    "answer": "Alisher presented his research titled \"Bridging the Gap\" at the Anubhav and Avishkar Research Conventions and completed the Science Honors Program."
+  },
+
+  {
+    "question": "alisher extra curricular activities",
+    "answer": "Alisher has actively participated in research-oriented academic programs and conventions. He was part of the Science Honors Program (SHP) from December 2024 to March 2025, where he learned research ethics, report writing, and research methodologies. He presented his research titled ‘Bridging the Gap’ at the Anubhav Research Convention in February 2025 and at the Avishkar Research Convention in December 2024. Additionally, Alisher has been a General Body Member of the Rotaract Club of KC since August 2022, actively participating in meetings, events, and collaborative initiatives."
+  },
+
+  {
+    "question": "leather website project",
+    "answer": "The Leather Website is a premium e-commerce platform built by Alisher using React with Vite, Express.js, and MongoDB. It features product filtering, cart functionality, OTP authentication, and an admin panel."
+  },
+  {
+    "question": "leather website features",
+    "answer": "The Leather Website includes dynamic product filtering, secure OTP-based authentication, cart and order management, and a secret-key–protected admin panel."
+  },
+
+  {
+    "question": "wecaterers project",
+    "answer": "WeCaterers is a full-stack catering reservation platform built using Next.js, PostgreSQL, Prisma, and Tailwind CSS, featuring role-based dashboards."
+  },
+  {
+    "question": "wecaterers authentication",
+    "answer": "WeCaterers uses JWT-based access and refresh tokens with email OTP verification and role-based authentication for users, caterers, and admins."
+  },
+  {
+    "question": "wecaterers admin features",
+    "answer": "Admins in WeCaterers can monitor platform activity, oversee user behavior, and manage system operations."
+  },
+
+  {
+    "question": "docuvault project",
+    "answer": "Docuvault is a secure document management system built using FastAPI, React with Vite, and MongoDB Atlas. It supports compressed uploads and secure document sharing."
+  },
+  {
+    "question": "docuvault tech stack",
+    "answer": "Docuvault is powered by FastAPI with JWT authentication, React with Vite for the frontend, and MongoDB Atlas for storage."
+  },
+  {
+    "question": "docuvault ai features",
+    "answer": "Docuvault integrates the Google Gemini API to generate documents from user prompts and export them as Word or PDF files."
+  },
+
+  {
+    "question": "unite chat app",
+    "answer": "Unite is a real-time chat application built using React, Node.js, PostgreSQL, and Socket.IO. It supports OTP-based signup and file sharing."
+  },
+  {
+    "question": "unite deployment",
+    "answer": "Unite is deployed with the frontend on Netlify and the backend and database on Render to ensure scalability and performance."
+  },
+
+  {
+    "question": "student academic tracker project",
+    "answer": "The Student Academic Tracker is a web platform that provides student performance insights through data visualization and predictive analytics."
+  },
+  {
+    "question": "student academic tracker machine learning",
+    "answer": "The project uses logistic regression and decision trees in a voting ensemble for attendance risk prediction, along with linear regression for marks prediction."
+  },
+  {
+    "question": "student academic tracker tech stack",
+    "answer": "The platform is built using ReactJS, Material UI, a custom backend API, and SQL Server, with robust encryption and multi-layer security."
+  },
+
+  {
+    "question": "alisher other projects",
+    "answer": "Alisher has also built a Pet Donation landing page, an Education & Internship Portal frontend, a Restaurant Website with OTP-based admin login, and a Java-based Quiz App."
+  },
+
+  {
+    "question": "alisher education",
+    "answer": "Alisher holds a Bachelor of Computer Science degree from Kishinchand Chellaram College, Mumbai, completed with a perfect GPA of 10.0."
+  },
+  {
+    "question": "alisher bachelors subjects",
+    "answer": "During his bachelor’s degree, Alisher studied computer science fundamentals, full-stack development, databases, software engineering, and applied machine learning."
+  },
+  {
+    "question": "alisher senior secondary education",
+    "answer": "Alisher completed his senior secondary education at St. Xavier’s College, Mumbai, achieving an overall grade of 80%."
+  },
+  {
+    "question": "alisher secondary education",
+    "answer": "Alisher completed his secondary education at Christ Church School, Mumbai, scoring 94.6% in his 10th board examinations."
+  },
+  {
+    "question": "alisher contact information",
+    "answer": "Alisher's contact information is available on his portfolio home page, including his email address and social media links."
+  },
+  {
+    "question": "alisher resume",
+    "answer": "Alisher's resume is available for download on his portfolio website and provides a detailed overview of his skills, projects, and experience."
+  },
+  {
+    "question": "alisher experience",
+    "answer": "Alisher has a total of 8 months of professional experience as a Full Stack Developer, including both internship and full-time roles. Although both roles were remote, he gained significant exposure at Site Guru Pvt Ltd by contributing to multiple projects and collaborating with cross-functional teams. Direct client interaction helped him understand real-world requirements and deliver effective solutions."
+  },
+  {
+    "question": "alisher skills and technologies",
+    "answer": "Alisher’s key skills include Full Stack Development, JavaScript, React, Node.js, Express.js, MongoDB, SQL, RESTful APIs, authentication systems, deployment, machine learning integration, and technical documentation."
+  },
+  {
+    "question": "alisher professional summary",
+    "answer": "Alisher is a dedicated Full Stack Developer with a strong foundation in computer science and hands-on experience in building and deploying web applications. He has delivered production-ready projects, integrated machine learning features, and mentored junior developers. He is passionate about continuous learning and applying new technologies to solve real-world problems."
+  },
+  {
+    "question": "alisher github",
+    "answer": "Alisher's GitHub profile showcases his projects, code samples, and contributions to open-source repositories, reflecting his skills and experience as a Full Stack Developer."
+  },
+  {
+    "question": "alisher linkedin",
+    "answer": "Alisher's LinkedIn profile provides a comprehensive overview of his professional background, skills, projects, and endorsements from colleagues and mentors."
+  },
+  {
+    "question": "alisher work experience at Site Guru Pvt Ltd",
+    "answer": "Alisher worked at Site Guru Pvt Ltd as a Full Stack Developer from June 2025 to December 2025. He worked on projects ranging from simple applications to ERP systems, gaining an understanding of real-world business processes. He developed and maintained web applications using JavaScript, SQL, and Vuetify, collaborated with designers and testers, and communicated directly with clients to gather requirements and provide updates."
+  },
+  {
+    "question": "alisher work experience at Unified Mentor",
+    "answer": "Alisher worked as a Full Stack Developer Intern at Unified Mentor from April 2025 to June 2025. During this period, he worked on three major projects: Unite, a real-time chat application using WebSockets; Docuvault, a secure document management system built with FastAPI and MongoDB Atlas that integrated Gemini for document generation; and WeCaterers, a catering reservation platform featuring role-based dashboards and JWT authentication. He completed structured full-stack development tasks, delivered technical documentation, and demonstrated continuous improvement across projects."
+  }
+]
