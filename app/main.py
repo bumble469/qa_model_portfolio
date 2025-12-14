@@ -41,6 +41,10 @@ class AnswerResponse(BaseModel):
     answer: str | None
     confidence: float
 
+@app.get("/")
+def wake_up():
+    return {"message": "Portfolio Q&A API is running."}
+
 @app.post("/api/ask", response_model=AnswerResponse)
 def ask_question(payload: QuestionRequest):
     answer, confidence = get_answer(payload.question)
