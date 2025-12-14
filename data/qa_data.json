@@ -96,12 +96,12 @@
   },
   {
     "question": "docuvault ai features",
-    "answer": "Docuvault integrates the Google Gemini API to generate documents from user prompts and export them as Word or PDF files."
+    "answer": "Docuvault integrates the Google Gemini API to generate documents in the form of raw html styles by tailwind, from user prompts and then parse them as Word or PDF files."
   },
 
   {
     "question": "unite chat app",
-    "answer": "Unite is a real-time chat application built using React, Node.js, PostgreSQL, and Socket.IO. It supports OTP-based signup and file sharing."
+    "answer": "Unite is a real-time chat application built using React, Node.js, PostgreSQL, and Socket.IO. It supports OTP-based signup and file sharing in private chats. It has a friend based system to chat with in individual, and supports making of private and public rooms."
   },
   {
     "question": "unite deployment",
@@ -110,7 +110,7 @@
 
   {
     "question": "student academic tracker project",
-    "answer": "The Student Academic Tracker is a web platform that provides student performance insights through data visualization and predictive analytics."
+    "answer": "The Student Academic Tracker is a web platform that provides student performance insights through data visualization and predictive analytics. It's Alisher's final year project for his Bachelor of Computer Science degree. The project is aims at enhancing communication between academic institutions, students, and parents by providing real-time updates on attendance and academic performance. By using machine learning algorithms like linear regression (performance prediction) and voting ensemble methods (attendance risk prediction), the platform offers predictive insights to help identify students at risk of poor performance or absenteeism."
   },
   {
     "question": "student academic tracker machine learning",
@@ -118,9 +118,16 @@
   },
   {
     "question": "student academic tracker tech stack",
-    "answer": "The platform is built using ReactJS, Material UI, a custom backend API, and SQL Server, with robust encryption and multi-layer security."
+    "answer": "The platform is built using ReactJS, Material UI, Express and Flask as backend APIs, and SQL Server as the database, with robust encryption and multi-layer security."
   },
-
+  {
+    "question": "about alisher",
+    "answer": "Alisher is a Full Stack Developer with a strong computer science background, a Bachelor’s degree from Kishinchand Chellaram College with a 10.0 GPA, around 8 months of professional experience working on production-ready applications such as e-commerce platforms, secure document systems, and real-time chat apps, skilled in React, Next.js, Node.js, Express, FastAPI, SQL, NoSQL, and machine learning integration, with experience collaborating with teams and clients, presenting academic research, mentoring interns, and a personal interest in drawing, making things, continuous learning, and building meaningful solutions."
+  },
+  {
+    "question": "alisher projects",
+    "answer": "Alisher has built several full-stack projects including a Leather E-commerce Website, WeCaterers catering reservation platform, Docuvault secure document management system, Unite real-time chat application, and a Student Academic Tracker with machine learning features."
+  },
   {
     "question": "alisher other projects",
     "answer": "Alisher has also built a Pet Donation landing page, an Education & Internship Portal frontend, a Restaurant Website with OTP-based admin login, and a Java-based Quiz App."
@@ -135,12 +142,16 @@
     "answer": "During his bachelor’s degree, Alisher studied computer science fundamentals, full-stack development, databases, software engineering, and applied machine learning."
   },
   {
-    "question": "alisher senior secondary education",
+    "question": "alisher senior secondary education and high school",
     "answer": "Alisher completed his senior secondary education at St. Xavier’s College, Mumbai, achieving an overall grade of 80%."
   },
   {
-    "question": "alisher secondary education",
+    "question": "alisher secondary education and schooling",
     "answer": "Alisher completed his secondary education at Christ Church School, Mumbai, scoring 94.6% in his 10th board examinations."
+  },
+  {
+    "question": "alisher educational background",
+    "answer": "Alisher completed his secondary education at Christ Church School, Mumbai, scoring 94.6% in his 10th board examinations, followed by senior secondary education at St. Xavier’s College, Mumbai, where he achieved an overall grade of 80%, building a strong academic foundation before pursuing higher studies in computer science."
   },
   {
     "question": "alisher contact information",

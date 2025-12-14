@@ -14,7 +14,6 @@ def get_qa_data():
     with open(DATA_PATH, "r", encoding="utf-8") as f:
         return json.load(f)
 
-
 @router.post("/qa")
 def update_qa_data(data: list):
     with open(DATA_PATH, "w", encoding="utf-8") as f:

@@ -3,6 +3,11 @@ import pickle
 from pathlib import Path
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.feature_extraction.text import TfidfVectorizer
+import re
+from nltk.stem import WordNetLemmatizer
+import nltk
+nltk.download("wordnet")
+nltk.download("omw-1.4")
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_PATH = BASE_DIR / "data" / "qa_data.json"
@@ -12,6 +17,15 @@ vectorizer: TfidfVectorizer | None = None
 question_vectors = None
 answers = []
 questions = []
+
+lemmatizer = WordNetLemmatizer()
+
+def normalize_text(text: str) -> str:
+    text = text.lower()
+    text = re.sub(r"[^a-z\s]", "", text)  
+    words = text.split()
+    words = [lemmatizer.lemmatize(word) for word in words]
+    return " ".join(words)
 
 def load_or_train_model():
     global vectorizer, question_vectors, answers, questions
@@ -29,7 +43,8 @@ def train_model():
     with open(DATA_PATH, "r", encoding="utf-8") as d:
         qa_data = json.load(d)
 
-    questions = [item["question"] for item in qa_data]
+    raw_questions = [item["question"] for item in qa_data]
+    questions = [normalize_text(q) for q in raw_questions]
     answers = [item["answer"] for item in qa_data]
 
     vectorizer = TfidfVectorizer(
@@ -53,40 +68,32 @@ def detect_subject(q: str):
     return "neutral"
 
 
-def get_answer(user_question: str, treshold: float = 0.2, top_k: int = 2):
+def get_answer(user_question: str, threshold: float = 0.25):
     if vectorizer is None or question_vectors is None:
         raise RuntimeError("Model not loaded")
 
     subject = detect_subject(user_question)
-    user_vector = vectorizer.transform([user_question])
+    normalized_question = normalize_text(user_question)
+    user_vector = vectorizer.transform([normalized_question])
+
     similarities = cosine_similarity(user_vector, question_vectors)[0]
-
     ranked_indices = similarities.argsort()[::-1]
-
-    selected_answers = []
-    selected_scores = []
 
     for i in ranked_indices:
         q_text = questions[i].lower()
 
         if subject == "alisher" and "alisher" not in q_text:
             continue
-        if subject == "assistant" and not (
-            "you" in q_text or "yourself" in q_text
-        ):
+        if subject == "assistant" and not ("you" in q_text or "yourself" in q_text):
             continue
 
-        if similarities[i] >= treshold:
-            selected_answers.append(answers[i])
-            selected_scores.append(similarities[i])
+        if similarities[i] < threshold:
+            continue
 
-        if len(selected_answers) >= top_k:
-            break
+        return answers[i].strip(), float(similarities[i])
 
-    if not selected_answers:
-        return (
-            "I can answer questions about Alisher’s education, projects, skills, and experience.",
-            0.0
-        )
+    return (
+        "I can answer questions about Alisher’s education, projects, skills, and experience.",
+        0.0
+    )
 
-    return selected_answers[0], float(max(selected_scores))
