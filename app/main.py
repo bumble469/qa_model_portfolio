@@ -43,7 +43,7 @@ class AnswerResponse(BaseModel):
 
 @app.get("/")
 def wake_up():
-    return {"message": "Portfolio Q&A API is running."}
+    return {"status": 200, "message": "Portfolio Q&A API is running."}
 
 @app.post("/api/ask", response_model=AnswerResponse)
 def ask_question(payload: QuestionRequest):
