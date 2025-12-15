@@ -41,7 +41,7 @@ class AnswerResponse(BaseModel):
     answer: str | None
     confidence: float
 
-@app.get("/")
+@app.get("/health")
 def wake_up():
     return {"status": 200, "message": "Portfolio Q&A API is running."}
 
