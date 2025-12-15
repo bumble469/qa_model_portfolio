@@ -63,7 +63,42 @@
     "question": "alisher extra curricular activities",
     "answer": "Alisher has actively participated in research-oriented academic programs and conventions. He was part of the Science Honors Program (SHP) from December 2024 to March 2025, where he learned research ethics, report writing, and research methodologies. He presented his research titled ‘Bridging the Gap’ at the Anubhav Research Convention in February 2025 and at the Avishkar Research Convention in December 2024. Additionally, Alisher has been a General Body Member of the Rotaract Club of KC since August 2022, actively participating in meetings, events, and collaborative initiatives."
   },
-
+    {
+    "question": "Explain the project Leather Website in detail",
+    "answer": "The Leather Website is a premium e-commerce platform developed using React with Vite, Express.js, and MongoDB Compass. It provides dynamic product filtering, cart functionality, and OTP-based user authentication to ensure a secure and smooth shopping experience. The platform includes a secure admin panel protected by secret-key authentication, allowing administrators to manage products, inventory, and orders efficiently. The project focuses on performance, security, and real-world e-commerce workflows."
+  },
+  {
+    "question": "Explain the project WeCaterers: Catering Reservation System in detail",
+    "answer": "WeCaterers is a full-stack web-based catering reservation system built using Next.js, PostgreSQL, Prisma ORM, and Tailwind CSS. It allows users to browse caterers, manage carts, place orders, and submit ratings. Caterers can manage profiles, menus, and reservations through dedicated dashboards. The platform implements secure JWT-based authentication with access and refresh tokens, role-based flows for users, caterers, and admins, and email OTP verification using Nodemailer and bcrypt.js. An admin dashboard provides tools for monitoring platform activity and user behavior."
+  },
+  {
+    "question": "Explain the project Docuvault: Personal Web-based E-Document Storage in detail",
+    "answer": "Docuvault is a secure document management platform developed using FastAPI with JWT authentication, React with Vite, and MongoDB Atlas. It supports efficient document uploads with backend compression to optimize storage usage. The platform enables organized document storage, activity log tracking, storage monitoring, and secure sharing through expiring links. Docuvault integrates the Google Gemini API to generate ready-made documents from user prompts in HTML styled with Tailwind CSS, which are then parsed into a visual format and made downloadable as Word or PDF files."
+  },
+  {
+    "question": "Explain the project Unite: Real-Time Chat Web App in detail",
+    "answer": "Unite is a full-stack real-time chat application built using React with Vite, Node.js, PostgreSQL, and Socket.IO. The platform supports OTP-based signup, friend requests, profile management, public and private chat rooms, and file sharing. Socket.IO enables real-time messaging and event handling for seamless communication. The application is deployed with the frontend on Netlify and the backend and database on Render, ensuring scalability, reliability, and real-time performance."
+  },
+  {
+    "question": "Explain the project Student Academic Tracker with Machine Learning in detail",
+    "answer": "The Student Academic Tracker is a dynamic web-based platform developed using ReactJS and Material UI, with a custom API backend and SQL Server database. It provides parents and institutions with detailed student performance insights, including attendance and academic records. The system integrates machine learning models such as logistic regression and decision trees combined in a voting ensemble for attendance risk prediction, and linear regression for marks prediction. The platform emphasizes robust encryption, multi-layer security, and data-driven insights to enhance academic monitoring and communication."
+  },
+  {
+    "question": "Explain the project Pet Donation Landing Page in detail",
+    "answer": "The Pet Donation Landing Page is a responsive and visually appealing web page developed using ReactJS and Bootstrap. The project focuses on clean design, accessibility, and user-friendly layouts to encourage pet adoption and donations. It emphasizes responsive behavior across devices and an engaging user experience through modern UI components."
+  },
+  {
+    "question": "Explain the project Education & Internship Portal Frontend in detail",
+    "answer": "The Education & Internship Portal Frontend is a responsive web interface built using ReactJS and Vanilla CSS as part of an internship project. It focuses on clean UI design and seamless user experience for displaying educational resources and internship opportunities. The project demonstrates strong frontend fundamentals, responsive layouts, and usability-focused design principles."
+  },
+  {
+    "question": "Explain the project Restaurant Website in detail",
+    "answer": "The Restaurant Website is a dynamic and responsive food ordering platform developed using ASP.NET and MS SQL. It includes admin login with OTP authentication, user profile management, and cart functionality to support seamless order handling. The system is designed to efficiently manage orders, sessions, and billing while providing a smooth experience for both customers and administrators."
+  },
+  {
+    "question": "Explain the project Quiz App in detail",
+    "answer": "The Quiz App is a simple Android application developed using Java and Android Studio. It presents users with multiple-choice questions and evaluates their responses in real time. The project demonstrates core Android development concepts such as activity management, user interaction handling, and basic application logic."
+  },
   {
     "question": "leather website project",
     "answer": "The Leather Website is a premium e-commerce platform built by Alisher using React with Vite, Express.js, and MongoDB. It features product filtering, cart functionality, OTP authentication, and an admin panel."
@@ -85,7 +120,6 @@
     "question": "wecaterers admin features",
     "answer": "Admins in WeCaterers can monitor platform activity, oversee user behavior, and manage system operations."
   },
-
   {
     "question": "docuvault project",
     "answer": "Docuvault is a secure document management system built using FastAPI, React with Vite, and MongoDB Atlas. It supports compressed uploads and secure document sharing."
@@ -94,6 +128,7 @@
     "question": "docuvault tech stack",
     "answer": "Docuvault is powered by FastAPI with JWT authentication, React with Vite for the frontend, and MongoDB Atlas for storage."
   },
+  
   {
     "question": "docuvault ai features",
     "answer": "Docuvault integrates the Google Gemini API to generate documents in the form of raw html styles by tailwind, from user prompts and then parse them as Word or PDF files."
