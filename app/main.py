@@ -3,10 +3,9 @@ from pydantic import BaseModel, Field
 from contextlib import asynccontextmanager
 from fastapi.middleware.cors import CORSMiddleware
 import os
-# from dotenv import load_dotenv
 from app.model import load_or_train_model, get_answer
 from app.admin import router as admin_router
-
+# from dotenv import load_dotenv
 # load_dotenv()
 @asynccontextmanager
 async def lifespan(app: FastAPI):

@@ -227,5 +227,13 @@
   {
     "question": "alisher work experience at Unified Mentor",
     "answer": "Alisher worked as a Full Stack Developer Intern at Unified Mentor from April 2025 to June 2025. During this period, he worked on three major projects: Unite, a real-time chat application using WebSockets; Docuvault, a secure document management system built with FastAPI and MongoDB Atlas that integrated Gemini for document generation; and WeCaterers, a catering reservation platform featuring role-based dashboards and JWT authentication. He completed structured full-stack development tasks, delivered technical documentation, and demonstrated continuous improvement across projects."
+  },
+  {
+    "question": "why did alisher choose or take computer science",
+    "answer": "Alisher's interest in computer science started in hight school when we learnt basic HTML and JavaScript in IT. Since he already enjoyed making things and drawing, he found coding to be another creative outlet. This interest grew over time as he explored more programming languages and technologies, leading him to pursue a Bachelor’s degree in Computer Science to deepen his knowledge and skills in the field."
+  },
+  {
+    "question": "alisher hobbies and interests",
+    "answer": "Alisher enjoys drawing, making things, continuous learning, and building meaningful solutions through technology."
   }
 ]
